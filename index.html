@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-1.12.4.js"></script>
+    <script src="js/scripts.js"></script>
+
+    <title>Appointment</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Appointment</h1>
+      <form id="appointment">
+        <div class="form-group">
+          <label for="day">Enter today's day</label>
+          <input id="day" class="form-control" type="text">
+        </div>
+        <div class="form-group">
+          <label for="date">Enter today's date</label>
+          <input id="date" class="form-control" type="text">
+        </div>
+        <button type="submit" class="btn">Submit</button>
+      </form>
+      <p>
+        Your appointment will be on: <span class="day"></span>, <span class="date"></span>
+      </p>
+    </div>
+  </body>
+</html>
